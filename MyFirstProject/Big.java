@@ -1,11 +1,12 @@
 public class Big {
     public static void main(String[] args) {
-        int a=-10;
-        if(a<0)
+        int num = 20;
+        int i=1,sum=0;
+        while(i<=num)
         {
-            a *= -1;
-            System.out.println(a);
-
+            sum +=i;
+            i++;
         }
+        System.out.println(sum);
     }
 }
